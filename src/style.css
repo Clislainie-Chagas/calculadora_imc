@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle, rgba(131, 212, 192, 0.93) 14%, rgba(233, 148, 233, 1) 96%);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    padding-top: 30px;
+}
+
+.box-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    max-height: fit-content;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.box-secundary {
+    padding: 25px;
+    margin: 10px;
+    align-items: center;
+    border: 1px solid rgba(216, 209, 209, 0.553);
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.222);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+input {
+    width: 75%;
+    background-color: aliceblue;
+    padding: 8px 10px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 10px;
+}
+
+span {
+    font-size: 16px;
+    color: black;
+}
+
+.resultado {
+    margin: 10px;
+    text-align: center;
+}
+
+.botao {
+    width: 100%;
+    background-color: rgb(30, 19, 191);
+    color: rgb(255, 255, 255);
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.botao:hover {
+    background-color: rgb(0, 0, 255);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.result {
+    font-size: 18px;
+}
