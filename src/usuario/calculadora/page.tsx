@@ -1,7 +1,6 @@
 'use client'
 import { useState } from "react"
 import "../../style.css"
-import "tailwindcss"
 
 function Calculadora() {
 
