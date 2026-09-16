@@ -46,16 +46,18 @@ p {
 }
 
 input {
-    width: 75%;
-    background-color: aliceblue;
+    width: 85%;
+    background-color: rgba(240, 248, 255, 0.579);
     padding: 8px 10px;
     margin: 10px 0px;
     border: none;
     border-radius: 10px;
+    color: rgba(96, 92, 92, 0.463);
+    font-size: 12px;
 }
 
 span {
-    font-size: 16px;
+    font-size: 12px;
     color: black;
 }
 

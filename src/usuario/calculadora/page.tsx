@@ -10,8 +10,10 @@ function Calculadora() {
     const [resultado, setResultado] = useState("")
 
     function calcularIMC() {
+
         const p = parseFloat(peso)
         const a = parseFloat(altura)
+
         if (!isNaN(p) && !isNaN(a) && a > 0) {
             const imc = p / (a * a)
             if (imc < 18) {
@@ -28,6 +30,8 @@ function Calculadora() {
         } else {
             setResultado("Por favor, insira valores válidos para peso e altura.")
         }
+        setPeso("")
+        setAltura("")
     }
 
     return (
@@ -39,7 +43,7 @@ function Calculadora() {
 
                 <p>Digite sua altura</p>
                 <input value={altura} onChange={e => setAltura(e.target.value)}
-                    type="text" placeholder="Exemplo: 1.75" /> Metros <br /><br />
+                    type="text" placeholder="Exemplo: 1.75" /> m <br /><br />
 
                 <div className="resultado">
 
